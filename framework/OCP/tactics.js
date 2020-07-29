@@ -60,7 +60,7 @@ var types = {
 //2.克隆
 //3.相互引用复用
 //爆栈处理
-function tactics(obj) {
+function deepClone(obj) {
     const objMap = new WeakMap();
     const isObject = o=> typeof o === 'object' && o!==null;
     const _clone = (o)=>{
