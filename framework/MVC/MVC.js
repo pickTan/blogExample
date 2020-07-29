@@ -29,6 +29,8 @@ function Model() {
 
 /**
  * UI展示层
+ *  **此处应该不是真实view，真实应该是html呈现的部分，而此处只是控制html的dom映射，理论来说应该是view Controller层，进行视图的更新控制器
+ *    暂且我们将它看成View层
  * @param contr
  * @constructor
  */
