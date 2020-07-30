@@ -19,6 +19,7 @@ function Model() {
     this.data = {
         text:1
     }
+    this.tpl=''
 
 }
 

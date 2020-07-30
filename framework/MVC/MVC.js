@@ -3,6 +3,7 @@
 
 /**
  * 数据模型层
+ * 业务逻辑
  * @constructor
  */
 function Model() {
@@ -53,6 +54,7 @@ function View(contr) {
 /**
  *
  * @constructor
+ * 流程
  */
 function Controller() {
     const  view = new View(this);

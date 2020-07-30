@@ -59,7 +59,7 @@ var types = {
 //1.判断类型
 //2.克隆
 //3.相互引用复用
-//爆栈处理
+//4.爆栈处理
 function deepClone(obj) {
     const objMap = new WeakMap();
     const isObject = o=> typeof o === 'object' && o!==null;

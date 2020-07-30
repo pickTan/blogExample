@@ -16,7 +16,7 @@ class  Content{
 
 class Page {
     constructor() {
-        this.sider = Sider();
+        this.sider = new Sider();
         this.top = new Top();
         this.content = new Content();
     }
@@ -34,6 +34,7 @@ class Page {
 //bind改成register 又是一个订阅 发布模式
 //容器中的bind再加一个惰性单例，在运行时实例化
 //很难控制Container按需输出全局单例或者是新实例
+//HOC
 
 
 class Container {
